@@ -1,0 +1,31 @@
+/* breadcrumb
+=================================== */
+.breadcrumb{
+    li.trail-item{
+        list-style:none;
+        a{
+            color:$secondary-color;
+            float:left;
+            @include padding (null, 20px, null, 5px);
+            position: relative;
+            &:after{
+                color:$body-color;
+                position: absolute;
+                content: "\f105";
+                top:-6px;
+                right:5px;
+                display: inline-block;
+                font-family: "icomoon";
+                font-size: 24px;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+    }
+text-transform: uppercase;
+    background-color:$grey-100;
+    font-weight: $weight-700;
+    @include padding (5px,5px,5px,5px);
+    @include margin (null,  null, 15px, null);
+}

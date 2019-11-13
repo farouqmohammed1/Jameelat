@@ -1,0 +1,277 @@
+/* -----------------------------------------
+Navigation
+----------------------------------------- */
+.site-navigation {
+  display: block;
+  @include margin (15px, null, null, null);
+  a {
+    display: block;
+    font-size:18px;
+    padding: 20px 12px;
+    color: $body-color;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 100%;
+    white-space: normal;
+  }
+  .menu {
+    a {
+      &:hover, &:focus {
+        background-color: $grey-200;
+      }
+    }
+    li {
+      display: block;
+      width: 100%;
+      ul li {
+        &:hover, &:focus {
+          background-color: $grey-200;
+        }
+      }
+    }
+  }
+}
+
+/* Styling the links *
+/* Background color change on Hover */
+/* Set menu item's width to 100% */
+/* Styling the toggle buttons */
+.menu-toggle {
+  background-color: $grey-100;
+  @include padding (15px, 12px, 15px, 12px);
+  font-size:17px;
+  text-decoration: none;
+  border: 1px solid $grey-700;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: block;
+  position: absolute;
+  top: 135px;
+  right: 40px;
+  .dashicons {
+    vertical-align: text-bottom;
+    &:before {
+      content: "\f0c9";
+      font-family: 'icomoon';
+    }
+  }
+}
+
+.toggled .menu-toggle {
+  background-color:$grey-200;
+  .dashicons:before {
+    font-family: 'icomoon';
+    color:$body-color;
+    content: "\f00d";
+  }
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  @include padding (15px,15px,15px,15px);
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  border: 1px solid transparent;
+  border-left: 1px solid $grey-500;
+  border-radius: 0;
+  color: $grey-500;
+  text-align: center;
+  &:hover, &:focus {
+    border: 1px dashed;
+  }
+  .dashicons {
+    font-size: 19px;
+    &:before {
+      font-family: 'icomoon';
+      content: "\f107";
+      color:$body-color;
+    }
+  }
+}
+
+.toggled-on > .dropdown-toggle .dashicons:before {
+  font-family: 'icomoon';
+  content: "\f106";
+  color:$body-color;
+}
+
+/* Hide Submenus by default using absolute positioning instead of display:none;. */
+.site-navigation .menu {
+  position: absolute;
+  top: 100%;
+  left: -9999em;
+  color: $body-color;
+  padding: 0;
+  margin: 0;
+  li, ul {
+    position: absolute;
+    top: 100%;
+    left: -9999em;
+    color: $body-color;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    &:hover > ul, &:focus > ul {
+      position: absolute;
+      top: 100%;
+      left: -9999em;
+      color: $body-color;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+/* Display the menu when clicked on Menu Toggle */
+.toggled .menu {
+  display: block;
+  position: relative;
+  top: 65px;
+  left: 0;
+  li {
+    position: relative;
+    left: unset;
+    text-align:left;
+    background-color:$grey-100;
+    border-top:1px solid $grey-500;
+    > .sub-menu {
+      display: none;
+    }
+  }
+  .toggled-on > .sub-menu {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 100%;
+  }
+}
+
+.site-navigation .menu ul {
+  a, ul a {
+    padding: 20px 12px;
+  }
+  a {
+    padding: 20px 20px;
+  }
+  ul a {
+    padding: 20px 28px;
+  }
+  a, ul a {
+    background-color: $grey-100;
+    border-bottom:1px solid $grey-500;
+  }
+  li {
+  }
+}
+
+/* Second and following tiers submenus */
+.menu {
+  .current_page_item > a, .current_page_ancestor > a, .current-menu-item > a, .current-menu-ancestor > a {
+    font-weight:  $weight-700;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .menu-toggle, .dropdown-toggle {
+    display: none;
+  }
+  .site-navigation {
+    .primary-menu {
+      display: flex;
+      position: static;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    .social-menu {
+      display: flex;
+      position: static;
+      border-left: 1px solid #bbb;
+    }
+    .menu {
+      li {
+        position: relative;
+        width: auto;
+        left: unset;
+      }
+      ul li:first-child {
+        border-top: 0;
+      }
+      a {
+        font-size:18px;
+        padding: 18px 18px;
+        text-align: left;
+      }
+      ul {
+        a, ul a {
+          font-size:18px;
+          padding: 18px 18px;
+        }
+        position: absolute;
+        /* has to be the same number as the "line-height" of "nav a" */
+        top: 100%;
+        left: -9999em;
+        z-index:1;
+      }
+      li {
+        &:hover > ul, &:focus > ul, &.focus > ul {
+          left: 0;
+        }
+      }
+      ul li {
+        position: relative;
+        width: 170px;
+      }
+      li li {
+        &:hover > ul, &:focus > ul, &.focus > ul {
+          top: 0;
+          left: 100%;
+        }
+      }
+      ul a {
+        &:hover, &:focus {
+          background-color: $grey-200;
+          color: $body-color;
+        }
+      }
+    }
+  }
+
+  /* Hide Dropdowns by Default
+   * and giving it a position of absolute */
+  /* Display Dropdowns on hover and focus */
+  /* First Tier Dropdown */
+  /* Second, Third and more Tiers	
+   * We move the 2nd and 3rd etc tier dropdowns to the left
+   * by the amount of the width of the first tier.
+  */
+
+  .menu-item-has-children > a:after, .page_item_has_children > a:after {
+    font-family: 'icomoon';
+    content: "\f107";
+    vertical-align: bottom;
+    @include margin (null, null, null, 10px);
+  }
+  .menu-item-has-children {
+    .menu-item-has-children > a:after, .page_item_has_children > a:after {
+        content: "\f107";
+        font-family: 'icomoon';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+  .page_item_has_children {
+    .menu-item-has-children > a:after, .page_item_has_children > a:after {
+      content: "\f107";
+      font-family: 'icomoon';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+/* Author
+=================================== */
+.author-info{
+    @include margin(5px, null, 35px, null);
+    @include padding(15px,15px,15px,15px);
+    background-color: $grey-100;
+
+    .author-photo{
+        @include margin (15px, null, null, null);
+    }
+
+    .author-content p{
+        @include margin (null, null, 5px, null);
+    }
+
+}

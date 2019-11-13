@@ -1,0 +1,92 @@
+/* Footer Widgets
+=================================== */
+
+.footer-widgets-area:before,
+.footer-widgets-area:after{
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+.footer-widgets-area:before,
+.footer-widgets-area:after{
+    clear: both;
+}
+
+.footer-widgets-area .hentry {
+    @include margin (null, null, 45px, null);
+}
+.footer-widgets-area.col-1 .hentry {
+    text-align: center;
+}
+.footer-widgets-area.col-1 .hentry:last-child {
+    @include margin (null, null, 0, null);
+}
+
+@media screen and (max-width: $screen-xs-md-min) {
+    .footer-widgets-area .hentry:last-child,
+    .footer-widgets-area.col-3 .hentry:last-child {
+        @include margin (null, null, 0, null);
+        @include padding (null, 0, null, null);
+    }
+}
+
+@media screen and (min-width:$screen-xs-md-min) {
+    .footer-widgets-area.col-2 .hentry,
+    .footer-widgets-area.col-4 .hentry {
+        width: 50%;
+        float: left;
+    }
+    .footer-widgets-area.col-2 .hentry:nth-child(2n+1),
+    .footer-widgets-area.col-4 .hentry:nth-child(2n+1) {
+        clear: left;
+    }
+    .footer-widgets-area.col-2 .hentry:nth-child(odd),
+    .footer-widgets-area.col-4 .hentry:nth-child(odd) {
+        @include padding (null, 40px, null, null);
+    }
+    .footer-widgets-area.col-2 .hentry:nth-last-child(-n+2),
+    .footer-widgets-area.col-4 .hentry:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: $screen-sm-min) {
+    .footer-widgets-area.col-3 .hentry {
+        width: 33.33%;
+        float: left;
+        @include margin (null, null, 0, null);
+    }
+    .footer-widgets-area.col-3 .hentry:not(:last-child) {
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width: $screen-md-min) {
+    .footer-widgets-area.col-4 .hentry {
+        width: 25%;
+        @include padding (null, 40px, null, null);
+    }
+    .footer-widgets-area.col-4 .hentry:last-child {
+        padding-right: 0;
+    }
+    .footer-widgets-area.col-4 .hentry:nth-child(2n+1) {
+        clear: none;
+    }
+    .footer-widgets-area.col-4 .hentry:nth-child(4n+1) {
+        clear: left;
+    }
+    .footer-widgets-area.col-4 .hentry:nth-last-child(-n+4) {
+        @include margin (null, null, 0, null);
+    }
+}
+
+@media screen and (max-width: $screen-xs-min) {
+    .footer-widgets-area {
+        text-align: center;
+    }
+}
+.footer-widgets-area .widget_categories ul{
+    padding-left:0;
+    li{
+        list-style:none;
+    }
+}

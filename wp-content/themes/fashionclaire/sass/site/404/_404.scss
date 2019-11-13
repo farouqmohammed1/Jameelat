@@ -1,0 +1,11 @@
+/* 404
+=================================== */
+.entry{
+    &.entry-404 {
+        @include margin (85px, null, null, null);
+    }
+}
+
+.content-404 hr{
+    display: none;
+}

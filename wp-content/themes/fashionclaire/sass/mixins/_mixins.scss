@@ -1,0 +1,76 @@
+@mixin clearfix {
+    &:before,
+    &:after{
+        content:"";
+        display: table;
+    }
+    &:after{
+        clear:both;
+    }
+}
+
+@mixin transitions {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@mixin padding ($top, $right, $bottom, $left){
+    padding-top:$top;
+    padding-right:$right;
+    padding-bottom:$bottom;
+    padding-left:$left;
+}
+    
+@mixin margin ($top, $right, $bottom, $left){
+    margin-top:$top;
+    margin-right:$right;
+    margin-bottom:$bottom;
+    margin-left:$left; 
+}
+
+@mixin button-properties{
+    @include padding (20px, 20px, 20px, 20px);
+    text-transform: uppercase;
+}
+
+@mixin button-color{
+    color:$white-color;
+    border-width:1px;
+    border-style:solid;
+    border-color: $secondary-color;
+    background-color:$secondary-color;
+}
+
+@mixin button-hover {
+    background-color:$white-color;
+    color:$secondary-color;
+    border-width:1px;
+    border-style:solid;
+    border-color: $secondary-color;
+    outline:none;
+}
+
+@mixin title-upperline {
+    text-transform:uppercase;
+    position: relative;
+    font-weight: $weight-700;
+        &::before{
+        position: absolute;
+        content:"";
+        display: block;
+        border:1px solid $secondary-color;
+        width:50px;
+        bottom:35px;
+    }
+}
+
+@mixin bullet {
+    color:$heading-color;
+    position: absolute;
+    content: "\2022";
+    font-size: 18px;
+    @include margin (-6px, null, null, 6px);
+}

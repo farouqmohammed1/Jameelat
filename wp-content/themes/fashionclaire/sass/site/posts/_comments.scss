@@ -1,0 +1,50 @@
+/* Comments
+=================================== */
+.entry-comments{
+  @include margin (45px, null, null, null);
+}
+#comments .post-comments.group {
+    @include margin(5px,null,45px,null);
+
+    ol#comment-list {
+     li.comment{
+       @include padding (10px, null, 10px, null);
+       @include margin (20px, null, 20px, null);
+     }
+      .reply a.comment-reply-link {
+        @include button-color();
+        @include padding (8px, 8px, 8px, 8px);
+        &:hover {
+          @include button-hover();
+        }
+      }
+      .comment-author {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        .avatar {
+          width: 110px;
+          height: 110px;
+          float: left;
+          overflow: visible;
+          @include margin (null, 30px, 15px, null);
+        }
+      }
+    }
+  }
+  
+  #respond {
+    h3#reply-title {
+      text-transform: uppercase;
+      border-top: 1px solid $secondary-color;
+      @include padding (15px, null, null, null);
+      @include margin (null, null, 25px, null);
+    }
+    form#commentform p.logged-in-as a {
+      color: $secondary-color;
+    }
+  }
+  
+
+  .bypostauthor {
+    display: block;
+}

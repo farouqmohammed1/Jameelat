@@ -1,0 +1,112 @@
+/*
+Theme Name: fashionclaire
+Theme URI: http://www.vbaimas.com/products/fashionclaire/
+Author: vbaimas
+Author URI: https://vbaimas.com
+Description: fashionclaire is a Free WordPress Fashion Blog Theme. It is a simple, easy to use, user-friendly WordPress theme and is suitable for a fashion magazine, blogging, travel, lifestyle and any other blogs. This theme have a lot of customization options that are available WordPress Theme Customizer, included google fonts, color options. Fashioclaire comes with added custom widgets for social profiles, recent posts, popular posts, sidebar options, copyright option etc. For more information, check out Theme Instructions at http://www.vbaimas.com/products/fashionclaire/ and Demo at http://themes.vbaimas.com/fashionclaire/
+Version: 1.2.5
+Tags: one-column, right-sidebar, custom-menu, custom-logo, custom-colors, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, blog
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fashionclaire
+Domain Path: /languages
+*/
+
+/* -----------------------
+    Table Of Contents
+----------------------------
+.. 01. Variables
+.. 02. Mixins
+.. 03. Typography
+.. 04. reset
+.. 05. Modules
+.. 06. Core
+.. 07. Media
+.. 08. Elements
+.. 09. Form
+.. 10. Buttons
+.. 11. Header
+.. 12. navigation
+.. 13. breadcrumb
+.. 14. blog
+.. 15. Pagination
+.. 16. Posts
+.. 17. Sidebar
+.. 18. Search results
+.. 19. Widgets
+.. 20. Footer
+.. 21. Footer Widgets
+.. 22. 404
+*/
+
+// Variables
+@import "sass/variables/_variables";
+
+// Mixins
+@import "sass/mixins/_mixins";
+
+// Typography
+@import "sass/typography/_typography";
+@import "sass/typography/_fluid_typography";
+
+// Reset 
+@import "sass/core/_reset";
+
+// Modules
+@import "sass/modules/_alignments";
+@import "sass/modules/_accessibility";
+
+// Core
+@import "sass/core/_grid";
+
+// Media
+@import "sass/media/_embed";
+
+// Elements
+@import "sass/elements/_elements";
+
+// Form 
+@import "sass/forms/_form";
+
+// Buttons 
+@import "sass/forms/_buttons";
+
+// Header
+@import "sass/site/header/_header";
+
+// Navigation
+@import "sass/site/navigation/_navigation";
+
+// Breadcrumb
+@import "sass/site/breadcrumb/_breadcrumb";
+
+// Blog
+@import "sass/site/blog/_blog";
+
+// Pagination
+@import "sass/site/pagination/_pagination";
+
+// Posts
+@import "sass/site/posts/_post-navigation";
+@import "sass/site/posts/_tags";
+@import "sass/site/posts/_author";
+@import "sass/site/posts/_related";
+@import "sass/site/posts/_comments";
+
+// Sidebar
+@import "sass/site/sidebar/_sidebar";
+
+// Search results
+@import "sass/site/search/_search-results";
+
+// Widget
+@import "sass/site/widgets/_widgets";
+
+// Footer
+@import "sass/site/footer/_footer";
+
+// Footer Widgets
+@import "sass/site/footer/_footer_widgets";
+
+// 404
+@import "sass/site/404/_404";

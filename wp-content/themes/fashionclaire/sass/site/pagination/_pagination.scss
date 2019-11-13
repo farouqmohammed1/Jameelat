@@ -1,0 +1,30 @@
+/* Pagination
+=================================== */
+.paging-navigation {
+  @include margin (40px,null, null, null);
+  @include padding(15px,15px,15px,null);
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    @include margin (null,null, null, 5px);
+  }
+}
+
+a.page-numbers, span.page-numbers {
+  @include button-hover();
+  @include padding  (10px,10px,10px,10px);
+
+}
+
+a:hover.page-numbers {
+@include button-color();
+}
+
+.paging-navigation .current {
+  @include button-color();
+  @include padding (null, null, 15px, null);
+}

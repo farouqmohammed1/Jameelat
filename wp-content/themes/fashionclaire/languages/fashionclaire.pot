@@ -1,0 +1,1162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-09-11 14:22+0300\n"
+"PO-Revision-Date: 2019-09-11 14:22+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "Page not Found"
+msgstr ""
+
+#: 404.php:11
+msgid ""
+"It looks like the page you are looking for is not exist. Perhaps try "
+"searching?"
+msgstr ""
+
+#: 404.php:16
+msgid "Maybe you are interested in"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: functions.php:70
+msgid "White"
+msgstr ""
+
+#: functions.php:76
+msgid "Light Grey"
+msgstr ""
+
+#: functions.php:82
+msgid "Medium Grey"
+msgstr ""
+
+#: functions.php:88
+msgid "Primary"
+msgstr ""
+
+#: functions.php:94
+msgid "Gold"
+msgstr ""
+
+#: functions.php:108
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:148
+msgid "on"
+msgstr ""
+
+#: functions.php:155
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:203
+msgid "Open the main menu"
+msgstr ""
+
+#: functions.php:204
+msgid "Close the main menu"
+msgstr ""
+
+#: functions.php:205
+msgid "expand submenu"
+msgstr ""
+
+#: functions.php:206
+msgid "collapse submenu"
+msgstr ""
+
+#: header.php:12
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:52
+msgid "Menu"
+msgstr ""
+
+#: inc/breadcrumbs.php:249
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:250
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:251
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:252
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:253
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:255
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumbs.php:257
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:259
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:261
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:713
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:730
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:747
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:763 inc/breadcrumbs.php:792 inc/breadcrumbs.php:819
+#: inc/breadcrumbs.php:846 inc/breadcrumbs.php:1187
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:764 inc/breadcrumbs.php:820 inc/breadcrumbs.php:1191
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:765 inc/breadcrumbs.php:1195
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:793
+msgid "W"
+msgstr ""
+
+#: inc/custom-functions.php:52
+#, php-format
+msgid " Theme fashionclaire by %s"
+msgstr ""
+
+#: inc/custom-functions.php:152
+msgid "&larr; Previous"
+msgstr ""
+
+#: inc/custom-functions.php:153
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/custom-functions.php:161
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/customizer/color-options.php:17
+msgid "Color Options"
+msgstr ""
+
+#: inc/customizer/color-options.php:22
+msgid "Branding section"
+msgstr ""
+
+#: inc/customizer/color-options.php:33
+msgid "Site title color"
+msgstr ""
+
+#: inc/customizer/color-options.php:34
+msgid "Change the color of site title."
+msgstr ""
+
+#: inc/customizer/color-options.php:47
+msgid "Site tagline color"
+msgstr ""
+
+#: inc/customizer/color-options.php:48
+msgid "Change the color of site tagline."
+msgstr ""
+
+#: inc/customizer/color-options.php:55
+msgid "Top header section"
+msgstr ""
+
+#: inc/customizer/color-options.php:66
+msgid "Top header"
+msgstr ""
+
+#: inc/customizer/color-options.php:67
+msgid "Change the background color of top header in social media section."
+msgstr ""
+
+#: inc/customizer/color-options.php:74
+msgid "Breadcrumb section"
+msgstr ""
+
+#: inc/customizer/color-options.php:85
+msgid "Breadcrumb background color"
+msgstr ""
+
+#: inc/customizer/color-options.php:86
+msgid "Change the background color of breadcrumb."
+msgstr ""
+
+#: inc/customizer/color-options.php:93
+msgid "Content section"
+msgstr ""
+
+#: inc/customizer/color-options.php:104
+msgid "Body color"
+msgstr ""
+
+#: inc/customizer/color-options.php:105
+msgid "Change the main color of body."
+msgstr ""
+
+#: inc/customizer/color-options.php:117
+msgid "Headings color"
+msgstr ""
+
+#: inc/customizer/color-options.php:118
+msgid "Change the color of H1,H2,H3,H4,H5,H6."
+msgstr ""
+
+#: inc/customizer/color-options.php:130
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer/color-options.php:131
+msgid ""
+"Change the color of breadcrumb, titles, links,  categories, dropdown menu."
+msgstr ""
+
+#: inc/customizer/color-options.php:143
+msgid "Link color on Hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:144
+msgid ""
+"Change the color on hover of breadcrumb, titles, widgets, categories, "
+"dropdown menu."
+msgstr ""
+
+#: inc/customizer/color-options.php:151
+msgid "Buttons section"
+msgstr ""
+
+#: inc/customizer/color-options.php:152
+msgid ""
+"These options apply only of tag, continue reading, submit and reply button."
+msgstr ""
+
+#: inc/customizer/color-options.php:163
+msgid "Button color"
+msgstr ""
+
+#: inc/customizer/color-options.php:164
+msgid "Change the color of button."
+msgstr ""
+
+#: inc/customizer/color-options.php:176
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/color-options.php:177
+msgid "Change the background color of button."
+msgstr ""
+
+#: inc/customizer/color-options.php:189
+msgid "Border color"
+msgstr ""
+
+#: inc/customizer/color-options.php:190
+msgid "Change the border color of button."
+msgstr ""
+
+#: inc/customizer/color-options.php:202
+msgid "Button color on hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:203
+msgid "Change the color of button on hover."
+msgstr ""
+
+#: inc/customizer/color-options.php:215
+msgid "Background color on hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:216
+msgid "Change the background color of button on hover."
+msgstr ""
+
+#: inc/customizer/color-options.php:228
+msgid "Border color on hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:229
+msgid "Change the border color of button on hover."
+msgstr ""
+
+#: inc/customizer/color-options.php:236
+msgid "Pagination section"
+msgstr ""
+
+#: inc/customizer/color-options.php:237
+msgid "These options apply only for pagination."
+msgstr ""
+
+#: inc/customizer/color-options.php:248
+msgid "Pagination color"
+msgstr ""
+
+#: inc/customizer/color-options.php:249
+msgid "Change the pagination color."
+msgstr ""
+
+#: inc/customizer/color-options.php:261
+msgid "Pagination background color"
+msgstr ""
+
+#: inc/customizer/color-options.php:262
+msgid "Change the pagination background color."
+msgstr ""
+
+#: inc/customizer/color-options.php:274
+msgid "Pagination border color"
+msgstr ""
+
+#: inc/customizer/color-options.php:275
+msgid "Change the pagination border color."
+msgstr ""
+
+#: inc/customizer/color-options.php:287
+msgid "Pagination color on hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:288
+msgid "Change the pagination color on hover."
+msgstr ""
+
+#: inc/customizer/color-options.php:300
+msgid "Pagination Background color on hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:301
+msgid "Change the pagination background color on hover."
+msgstr ""
+
+#: inc/customizer/color-options.php:313
+msgid "Pagination border color on hover"
+msgstr ""
+
+#: inc/customizer/color-options.php:314
+msgid "Change the pagination border color on hover."
+msgstr ""
+
+#: inc/customizer/color-options.php:326
+msgid "Paging current color"
+msgstr ""
+
+#: inc/customizer/color-options.php:327
+msgid "Change the current pagination color."
+msgstr ""
+
+#: inc/customizer/color-options.php:339
+msgid "Paging current background color"
+msgstr ""
+
+#: inc/customizer/color-options.php:340
+msgid "Change the pagination background color in current page."
+msgstr ""
+
+#: inc/customizer/color-options.php:352
+msgid "Paging current border color"
+msgstr ""
+
+#: inc/customizer/color-options.php:353
+msgid "Change the pagination border color in current page."
+msgstr ""
+
+#: inc/customizer/color-options.php:360
+msgid "Author section"
+msgstr ""
+
+#: inc/customizer/color-options.php:371
+msgid "Author background"
+msgstr ""
+
+#: inc/customizer/color-options.php:372
+msgid "Change the background color of author section."
+msgstr ""
+
+#: inc/customizer/color-options.php:379
+msgid "Footer section"
+msgstr ""
+
+#: inc/customizer/color-options.php:390
+msgid "Footer background"
+msgstr ""
+
+#: inc/customizer/color-options.php:391
+msgid "Change the background color of footer."
+msgstr ""
+
+#: inc/customizer/default.php:28
+msgid "[...]"
+msgstr ""
+
+#: inc/customizer/default.php:29 template-parts/content-post.php:36
+#: template-parts/content-post.php:48
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/customizer/default.php:56 inc/customizer/theme-options.php:457
+#: template-parts/content-related.php:4 template-parts/content-related.php:5
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/default.php:62
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: inc/customizer/gfonts.php:28
+msgid "None"
+msgstr ""
+
+#: inc/customizer/theme-options.php:15
+msgid "Themes Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:25
+msgid "Check to show the title below the logo."
+msgstr ""
+
+#: inc/customizer/theme-options.php:38
+msgid "Check to show the tagline below the logo."
+msgstr ""
+
+#: inc/customizer/theme-options.php:51
+msgid "Logo top padding."
+msgstr ""
+
+#: inc/customizer/theme-options.php:52
+msgid "Add some padding in the top of logo."
+msgstr ""
+
+#: inc/customizer/theme-options.php:64
+msgid "Logo bottom padding."
+msgstr ""
+
+#: inc/customizer/theme-options.php:65
+msgid "Add some padding in the bottom of logo."
+msgstr ""
+
+#: inc/customizer/theme-options.php:72
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:73
+msgid "Settings for the fonts."
+msgstr ""
+
+#: inc/customizer/theme-options.php:85
+msgid "Select the font family for headings."
+msgstr ""
+
+#: inc/customizer/theme-options.php:86
+msgid ""
+"Apply the font for the headings h1, h2, h3, h4, h5, h6. The default font "
+"family is PT Serif."
+msgstr ""
+
+#: inc/customizer/theme-options.php:99
+msgid "Select the font family for body."
+msgstr ""
+
+#: inc/customizer/theme-options.php:100
+msgid "Apply the font for body. The default font family is PT Serif."
+msgstr ""
+
+#: inc/customizer/theme-options.php:114
+msgid "Select the font family for branding."
+msgstr ""
+
+#: inc/customizer/theme-options.php:115
+msgid ""
+"Apply the font for site title and tagline. The default font family is PT "
+"Serif."
+msgstr ""
+
+#: inc/customizer/theme-options.php:124 inc/widgets.php:12
+msgid "Top Header"
+msgstr ""
+
+#: inc/customizer/theme-options.php:125
+msgid "Settings for the site header."
+msgstr ""
+
+#: inc/customizer/theme-options.php:137
+msgid "Show social media in top header."
+msgstr ""
+
+#: inc/customizer/theme-options.php:138
+msgid "Check to show the social media in the top of header."
+msgstr ""
+
+#: inc/customizer/theme-options.php:146
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:147
+msgid "Settings for sidebar."
+msgstr ""
+
+#: inc/customizer/theme-options.php:159
+msgid "Show sidebar in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:160
+msgid "Check to show the right sidebar in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:172
+msgid "Show sidebar in page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:173
+msgid "Check to show the right sidebar in page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:180
+msgid "Archive/blog"
+msgstr ""
+
+#: inc/customizer/theme-options.php:181
+msgid "Settings for archive/blog."
+msgstr ""
+
+#: inc/customizer/theme-options.php:193 inc/customizer/theme-options.php:337
+#: inc/customizer/theme-options.php:436
+msgid "Show breadcrumb."
+msgstr ""
+
+#: inc/customizer/theme-options.php:194
+msgid "Check to show breadcrumb in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:206
+msgid "Show the content."
+msgstr ""
+
+#: inc/customizer/theme-options.php:207
+msgid "Check to show the content. The excerpt is the default option."
+msgstr ""
+
+#: inc/customizer/theme-options.php:220
+msgid "Enter your excerpt length."
+msgstr ""
+
+#: inc/customizer/theme-options.php:221
+msgid "The default length of excerpt is 55."
+msgstr ""
+
+#: inc/customizer/theme-options.php:238
+msgid "Write your text for the excerpt section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:250
+msgid "Button"
+msgstr ""
+
+#: inc/customizer/theme-options.php:251
+msgid "Write the text for continue reading in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:263
+msgid "Show the continue reading."
+msgstr ""
+
+#: inc/customizer/theme-options.php:264
+msgid "Check to show the continue reading in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:276 inc/customizer/theme-options.php:350
+msgid "Show the categories."
+msgstr ""
+
+#: inc/customizer/theme-options.php:277
+msgid "Check to show the categories in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:289 inc/customizer/theme-options.php:363
+msgid "Show the published date."
+msgstr ""
+
+#: inc/customizer/theme-options.php:290
+msgid "Check to show the published date in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:302 inc/customizer/theme-options.php:376
+msgid "Show the count of comments."
+msgstr ""
+
+#: inc/customizer/theme-options.php:303
+msgid "Check to show the count of comments in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:315
+msgid "Show the featured image."
+msgstr ""
+
+#: inc/customizer/theme-options.php:316
+msgid "Check to show the featured image in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:324
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:325
+msgid "Settings for the single posts."
+msgstr ""
+
+#: inc/customizer/theme-options.php:338
+msgid "Check to show the breadcrumb in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:351
+msgid "Check to show the categories in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:364
+msgid "Check to show the published date in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:377
+msgid "Check to show the count of comments in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:389
+msgid "Show the tags."
+msgstr ""
+
+#: inc/customizer/theme-options.php:390
+msgid "Check to show tags in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:402
+msgid "Show the author biography."
+msgstr ""
+
+#: inc/customizer/theme-options.php:403
+msgid "Check to show the author biography in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:415
+msgid "Show the pagination."
+msgstr ""
+
+#: inc/customizer/theme-options.php:416
+msgid "Check to show the pagination in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:423
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/theme-options.php:424
+msgid "Settings for the page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:437
+msgid "Check to show breadcrumb in page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:449
+msgid "Show featured image."
+msgstr ""
+
+#: inc/customizer/theme-options.php:450
+msgid "Check to show featured image in page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:458
+msgid "Settings for the related posts."
+msgstr ""
+
+#: inc/customizer/theme-options.php:471
+msgid "Related posts section title."
+msgstr ""
+
+#: inc/customizer/theme-options.php:472
+msgid "Change the title of related posts section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:484
+msgid "Show the date."
+msgstr ""
+
+#: inc/customizer/theme-options.php:485
+msgid "Check to show the date of related post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:497
+msgid "Show the related posts section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:498
+msgid "Check to show the section of related posts."
+msgstr ""
+
+#: inc/customizer/theme-options.php:505
+msgid "Extra Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:506
+msgid "Extra settings, like widgets."
+msgstr ""
+
+#: inc/customizer/theme-options.php:518
+msgid "Show the date of posts widgets."
+msgstr ""
+
+#: inc/customizer/theme-options.php:519
+msgid "Check to show the date of posts in widget section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:526
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/theme-options.php:527
+msgid "Settings for the footer."
+msgstr ""
+
+#: inc/customizer/theme-options.php:539
+msgid "Footer Copyright."
+msgstr ""
+
+#: inc/customizer/theme-options.php:540
+msgid "Write your text for copyright."
+msgstr ""
+
+#: inc/customizer/theme-options.php:547
+msgid "Responsive Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:548
+msgid "These options apply only for mobile devices (max-width:768px)."
+msgstr ""
+
+#: inc/customizer/theme-options.php:559
+msgid "Check to hide the top header section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:571
+msgid "Check to hide the related posts section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:583
+msgid "Check to hide the sidebar."
+msgstr ""
+
+#: inc/template-tags.php:35
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:38
+#, php-format
+msgid "TAGS %1$s "
+msgstr ""
+
+#: inc/widgets.php:14
+msgid "Add widgets for Top Header."
+msgstr ""
+
+#: inc/widgets.php:22
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Add widgets for sidebar."
+msgstr ""
+
+#: inc/widgets.php:32
+msgid "Footer - Column 1"
+msgstr ""
+
+#: inc/widgets.php:34
+msgid "This is the first column on footer"
+msgstr ""
+
+#: inc/widgets.php:42
+msgid "Footer - Column 2"
+msgstr ""
+
+#: inc/widgets.php:44
+msgid "This is the second column on footer"
+msgstr ""
+
+#: inc/widgets.php:52
+msgid "Footer - Column 3"
+msgstr ""
+
+#: inc/widgets.php:54
+msgid "This is the third column on footer"
+msgstr ""
+
+#: inc/widgets.php:62
+msgid "Footer - Column 4"
+msgstr ""
+
+#: inc/widgets.php:64
+msgid "This is the fourth column on footer"
+msgstr ""
+
+#: inc/widgets/widget-featured-posts.php:7
+msgid "Displays a number of featured posts from specific category."
+msgstr ""
+
+#: inc/widgets/widget-featured-posts.php:10
+msgid "Fashionclaire - Featured Posts"
+msgstr ""
+
+#: inc/widgets/widget-featured-posts.php:63
+#: inc/widgets/widget-popular-posts.php:64
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-featured-posts.php:67
+msgid "Category to display the latest posts."
+msgstr ""
+
+#: inc/widgets/widget-featured-posts.php:86
+#: inc/widgets/widget-popular-posts.php:87
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/widget-popular-posts.php:7
+msgid "Displays a number of popular posts from specific category."
+msgstr ""
+
+#: inc/widgets/widget-popular-posts.php:10
+msgid "Fashionclaire - Popular Posts"
+msgstr ""
+
+#: inc/widgets/widget-popular-posts.php:68
+msgid "Category to display the popular posts."
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:8
+msgid "Fashionclaire : Social Icons"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:11
+msgid "A Widget for Social Icons "
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:236
+#: inc/widgets/widget-social-networks.php:237
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:241
+msgid "Facebook"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:242
+msgid "https://www.facebook.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:246
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:247
+msgid "https://twitter.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:251
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:252
+msgid "https://linkedin.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:256
+msgid "G plus"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:257
+msgid "https://plus.google.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:261
+msgid "Instagram"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:262
+msgid "https://instagram.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:266
+msgid "Vine"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:267
+msgid "https://vine.co/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:271
+msgid "Github"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:272
+msgid "https://github.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:276
+msgid "Gitlab"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:277
+msgid "https://gitlab.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:281
+msgid "Stack Overflow"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:282
+msgid "https://stackoverflow.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:286
+msgid "Xing"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:287
+msgid "https://xing.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:291
+msgid "Flickr"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:292
+msgid "https://www.flickr.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:296
+msgid "500px"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:297
+msgid "https://web.500px.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:301
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:302
+msgid "https://www.pinterest.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:306
+msgid "WordPress"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:307
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:311
+msgid "YouTube"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:312
+msgid "https://www.youtube.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:316
+msgid "Vimeo"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:317
+msgid "https://vimeo.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:321
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:322
+msgid "https://soundcloud.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:326
+msgid "Lastfm"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:327
+msgid "https://lastfm.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:331
+msgid "Spotify"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:332
+msgid "https://spotify.com"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:336
+msgid "Telegram"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:337
+msgid "https://telegram.org/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:341
+msgid "Foursquare"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:342
+msgid "https://foursquare.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:346
+msgid "Yelp"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:347
+msgid "https://yelp.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:351
+msgid "Tripadvisor"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:352
+msgid "https://tripadvisor.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:356
+msgid "Tumblr"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:357
+msgid "https://tumblr.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:361
+msgid "Medium"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:362
+msgid "https://medium.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:366
+msgid "Slideshare"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:367
+msgid "https://slideshare.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:371
+msgid "Behance"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:372
+msgid "https://www.behance.net/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:376
+msgid "Dribbble"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:377
+msgid "https://dribbble.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:381
+msgid "Deviantart"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:382
+msgid "https://deviantart.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:387
+msgid "Reddit"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:388
+msgid "https://reddit.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:392
+msgid "Hackernews"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:393
+msgid "https://news.ycombinator.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:397
+msgid "Link"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:398
+msgid "https://link.com/"
+msgstr ""
+
+#: template-parts/no-results.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/no-results.php:7
+msgid ""
+"Sorry, but nothing mached your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/no-results.php:10
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""

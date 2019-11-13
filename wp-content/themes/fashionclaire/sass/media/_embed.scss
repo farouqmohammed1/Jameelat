@@ -1,0 +1,20 @@
+/* embed
+=================================== */
+ embed,iframe,object,video,audio{
+     @include margin (0, 0, 15px, 0);
+     max-width:100%;
+ }
+ p > embed, p > iframe, p > object, p > audio, span > embed, span > iframe, span > object, span > audio{
+     @include margin (null, null, 0, null);
+ } 
+
+ #map, .map * {
+max-width:none!important;
+ }
+
+ img{
+    display: inline-block;
+    vertical-align:middle;
+    max-width: 100%;
+    height:auto;
+}

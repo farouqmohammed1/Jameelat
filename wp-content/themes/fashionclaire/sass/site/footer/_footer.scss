@@ -1,0 +1,14 @@
+/* Footer
+=================================== */
+footer{
+    width:100%;
+        background-color:$grey-100;
+        @include padding (45px, null, 15px, null);
+        @include margin (65px, null, null, null);
+    .site-footer{
+        @include margin(15px, auto, auto, auto);
+            a{
+                color:$secondary-color;
+            }
+    }
+}

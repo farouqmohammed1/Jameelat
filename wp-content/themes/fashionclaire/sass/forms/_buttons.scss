@@ -1,0 +1,33 @@
+/* Buttons
+=================================== */
+a.wp-block-button__link,
+ .btn,
+ .comment-reply-link,
+ input[type="button"],
+ input[type="submit"],
+ input[type="reset"],
+ button{
+    display: inline-block;
+    font-weight: normal;
+    @include margin (0,0,0,0);
+    line-height:normal;
+    box-shadow: none;
+    text-align:center;
+    vertical-align: middle;
+    cursor:pointer;
+    white-space: nowrap;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    border-radius: 0;
+    width: auto;
+    height:auto;
+    background-image:none;
+    @include button-properties();
+    @include transitions();
+
+    @include button-color();
+     &:hover{
+        @include button-hover();
+    }
+ }

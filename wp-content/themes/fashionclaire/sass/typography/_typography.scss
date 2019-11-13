@@ -1,0 +1,33 @@
+/* Typography
+=================================== */
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    color: $body-color;
+    font-family: $body-font;
+    background-color:$white-color;
+    -webkit-font-snoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height:normal;
+    @include margin(0,0,15px,0);
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    font-weight: 700;
+    font-family: $body-font;
+    color: $heading-color;
+}
+
+
+h1 {font-size:28px;}
+h2{font-size:23px;}
+h3{font-size:21px;}
+h4{font-size:18px;}
+h5{font-size:16px;}
+h6{font-size:14px;}
+
+p{
+    @include margin(null, null, 15px, null);
+}

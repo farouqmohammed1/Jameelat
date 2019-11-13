@@ -1,0 +1,29 @@
+
+// Colors
+$grey-100 : #fafafa !default;
+$grey-200 : #e6e6e6 !default;
+$grey-500 : #919191 !default;
+$grey-700 : #616161 !default;
+$body-color : #333333 !default;
+$heading-color: #151515 !default;
+$secondary-color: #8e710b !default;
+$white-color : #ffffff !default;
+
+// Weight
+$weight-200 : 200 !default;
+$weight-300 : 300 !default;
+$weight-700 : 700 !default;
+
+// Media Queries
+$screen-xs-min      : 480px !default;
+$screen-xs-md-min   : 567px !default;
+$screen-sm-min      : 768px !default;
+$screen-md-min      : 992px !default;
+$screen-lg-min      : 1200px !default;
+
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+// Font
+$body-font: 'PT Serif', serif;

@@ -1,0 +1,41 @@
+/* Fluid Typography
+=================================== */
+/* H1
+=================================== */
+
+/* 21px @ 480px increasing to 28px @ 1920px */
+@media (min-width: $screen-xs-min) {
+  h1.entry-title,
+  h1.entry-title a,
+    h1 {
+      font-size: calc(1.3125rem + ((1vw - 4.8px) * 0.4861));
+      /* Where: * 0.4861 = 100 * font_Size_Difference / viewport_Width_Difference */
+    }
+  }
+  /* Prevent font scaling beyond this breakpoint */
+  @media (min-width: 1920px) {
+    h1.entry-title,
+    h1.entry-title a,
+    h1 {
+      font-size: 28px;
+    }
+  }
+
+/* H3
+=================================== */
+  /* 19px @ 480px increasing to 21px @ 1920px */
+@media (min-width: $screen-xs-min) {
+  h3.widget-title,
+    h3 {
+      font-size: calc(1.1875rem + ((1vw - 4.8px) * 0.1389));
+      /* Where: * 0.1389 = 100 * font_Size_Difference / viewport_Width_Difference */
+    }
+  }
+  /* Prevent font scaling beyond this breakpoint */
+  @media (min-width: 1920px) {
+    h3.widget-title,
+    h3 {
+      font-size: 21px;
+    }
+  }
+  

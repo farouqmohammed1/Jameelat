@@ -1,0 +1,80 @@
+/* form
+=================================== */
+ label{
+     display: block;
+     @include margin(0, 0, 0, 5px);
+     font-weight: normal;
+     letter-spacing: 2px;
+ }
+
+ input,
+ textarea{
+     display: inline-block;
+     font-size:inherit;
+     width:100%;
+     max-width:100%;
+     height:50px;
+     @include padding (2px, 0, 0, 15px);
+     line-height: normal;
+     background-color:$white-color;
+     background-image: none;
+     border:none;
+     transition: box-shadow 0.20s ease;
+     box-shadow: inset 2px 2px 0 0 transparent;
+     @include transitions();
+  
+     @media (max-width : $screen-xs-max){
+        width:100%;
+     }
+     
+ }
+
+form.search-form input.search-field:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	background-color: $grey-100;
+    border:1px solid #004c73;
+}
+
+ input[type="search"]{
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ textarea{
+     @include padding (15px, 15px, 15px, 15px);
+     height: auto;
+     border:1px solid $grey-200;
+ }
+
+ input#author,
+ input#email,
+ input#url{
+     border:1px solid $grey-200;
+ }
+
+ select{
+     max-width:100%;
+ }
+
+ input[type="checkbox"],
+ input[type="radio"]{
+     @include margin (4px, null, null , null);
+   margin-top:1px \9;
+   line-height: normal;
+   width:auto;
+   height:auto;
+ }
+ fieldset {
+     @include margin (null, null, null, 15px);
+     @include padding (0,0,0,0);
+     border:none;
+     min-width:0;
+ }

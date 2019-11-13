@@ -1,0 +1,48 @@
+/* header
+=================================== */
+
+#masthead{
+    &.site-header{
+        @include margin (null, null, 25px, null);
+        border-bottom:1px solid $heading-color;
+    }
+}
+
+.top-header-content{
+    background-color: $grey-100;
+    @include padding (3px, null, 3px, null);
+        ul.social-networks {
+            display: flex;
+            flex-flow: row wrap;
+            /* This aligns items to the end line on main-axis */
+            justify-content: flex-end;
+        li{
+            list-style-type: none;
+            float: left;
+            a{
+                @include margin (null, 15px, 10px, null);
+            }
+        }
+    }
+}
+
+.site-branding{
+    .site-title{
+        font-size:19px;
+        line-height:28px;
+        @include margin (15px, null, null, null);
+        text-transform:uppercase;
+    }
+
+    p.site-tagline{
+        font-size:16px;
+    }
+
+    a.custom-logo-link{
+        .custom-logo{
+            max-height: 90px;
+            width: auto;
+            display: block;
+        }
+    }
+}

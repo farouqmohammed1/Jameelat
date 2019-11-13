@@ -1,0 +1,109 @@
+/* Widgets Section
+=================================== */
+h3.widget-title{
+    @include title-upperline ();
+    }
+
+.sidebar{
+    .widget_search{
+        @include margin (null, null, 15px, null);
+    }
+    .widget{
+        @include padding (10px, null, 10px, null);
+        align-items: left;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+
+        ul{
+            @include margin(null, null, null, -15px);
+            li.cat-item{
+                list-style: none;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .entry-widget-content{
+        @include margin (15px, null, 15px, null);
+    } 
+
+    ul.social-networks{
+        li {
+            list-style-type:none;
+            float: left;
+            a{
+                @include margin (null, 10px, null, null);
+            }
+    }
+}
+}
+
+
+.site-footer{
+    .widget{
+        @include margin (null, null, 40px, null);
+    }
+}
+
+
+
+/* Search Option
+=================================== */
+article.entry{
+    &.entry-404{
+        form.search-form {
+            input.search-field{
+                max-width: 100%!important;
+                width:100%!important;
+                @include margin (null, null, 85px, null);
+            }
+        input[type="submit"].search-submit{
+            position: absolute;
+        }
+        }
+    }
+}
+
+form.search-form{
+    position: relative;
+    
+   input.search-field{
+       float: left;
+       width:60%;
+       @include margin (null, 10px, null, null);
+       border:1px solid $grey-200;
+       height: 50px;
+       @include padding (6px, null, null, 15px );
+   }
+
+   input[type="submit"].search-submit{
+    height:50px;
+    @include padding (15px,15px,15px,15px);
+    @include button-color();
+    position: relative;
+    &:hover{
+        @include button-hover();
+    }
+  }
+}
+
+
+/* Post Item Widgets
+=================================== */
+.entry-widget{
+    text-transform: uppercase;
+    .entry-widget-content{
+        @include margin (null, null, 5px, null);
+        > *{
+            display: inline-block;
+        }
+        a.entry-date-widget{
+            font-size:14px;
+        }
+    }
+
+    h1.entry-title-widget{
+        font-size:16px;
+    }
+}

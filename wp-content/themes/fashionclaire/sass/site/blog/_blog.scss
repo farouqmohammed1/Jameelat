@@ -1,0 +1,80 @@
+/* Blog
+=================================== */
+.entry{
+    @include padding (5px, null, 45px, null);
+    h1.entry-title{
+        text-transform: uppercase;
+        @include margin (null, null, 15px, null);
+        a{
+            color:$heading-color;
+            font-weight: 700;
+        }
+    }
+
+    .entry-time,
+        .entry-categories a{
+            position: relative;
+            &::after {
+                @include bullet();
+            }
+        }
+
+    .entry-content{
+        @include padding (null, null, 15px, null);
+            p{
+                @include margin (null, null, 30px, null);
+                a{
+                    color:$secondary-color;
+                    text-decoration:underline;
+                }
+        }
+        
+    }
+
+    .entry-meta{
+        color:$heading-color;
+        font-size: 14px;
+        @include margin (15px, null, null, null);
+        font-weight: normal;
+        a{
+            color:$heading-color;
+            &:hover{
+                color:$secondary-color;
+            }
+        }
+    }
+
+    .entry-meta > * {
+        text-transform: uppercase;
+        display: inline;
+        position: relative;
+        @include padding (null, 18px, null, null);
+        font-weight: normal;
+    }
+
+    .read-more{
+        @include button-properties();
+        top: 20px;
+        position: relative;
+        @include button-color();
+       &:hover{
+            @include button-hover ();
+        }
+    }
+}
+
+/* The Basic Pages / Posts 
+=================================== */
+.single,
+.page{
+.entry{
+    border:0!important;
+    }
+}
+
+.archive
+{
+    h2{
+        @include margin (20px, null, null, null);
+    }
+}
